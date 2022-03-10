@@ -1,5 +1,6 @@
 
-![Banner_FocusMode](https://user-images.githubusercontent.com/71931749/157772691-1da11887-28aa-4f1e-b260-33ef7527dc26.png)
+![Banner_FocusMode](https://user-images.githubusercontent.com/71931749/157773055-79ad486d-0534-43d6-a2ec-4cc9d6e5dd93.png)
+
 # Focus-Mode
 Focus Mode is a software that allows you to keep unwanted or distracting apps/websites in the taskbar, or even close them - it's supposed to be a simple replica of the Focus Mode for Android. You can customize it using the Settings.ini file, make sure to restart the app after!
 
