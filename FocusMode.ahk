@@ -64,7 +64,6 @@ CheckWindow() {
             WinClose, ahk_id %CurrID%
             ; MsgBox, 0, Ahk, %CurrID%
             MsgBox, 0, %AppName%, Application close rule.
-            MsgBox % FocusMessageEnabled
             if (FocusMessageEnabled)
                 MsgBox % FocusMessageContent
         ; If window name is in minimize names array
@@ -83,7 +82,7 @@ CanMatchWindow(NamesArray, WindowID) {
         ; if current window contains title return true
         WinGetTitle, this_title, ahk_id %WindowID%
         If RegExMatch(this_title, element) {
-            MsgBox % element
+            ; MsgBox % element
             ; MsgBox % WindowID "/" this_title "/" element "/" index "/" W
             return true
         }
